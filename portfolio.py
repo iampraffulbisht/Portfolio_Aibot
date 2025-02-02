@@ -79,7 +79,10 @@ with col1:
     st.subheader("Hi :wave:")
     st.markdown("<h1>I am Prafful<br>Bisht</h1>", unsafe_allow_html=True)
 with col2:
-    st.image("images/praffulbisht.png",width=600)
+    st.markdown(
+        '<img src="images/About.png" class="floating-image" width="700"/>',
+        unsafe_allow_html=True,
+    )
 
 # About me Section
 st.write("")
