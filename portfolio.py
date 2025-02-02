@@ -226,7 +226,7 @@ with open(resume_file, "rb") as file:
         st.download_button(
             label="📄 Download My Resume",
             data=file,
-            file_name="Prafful_Bisht_Resume.pdf",
+            file_name="Prafful_s_Resume.pdf",
             mime="application/pdf"
         )
 st.title("Gallery")
