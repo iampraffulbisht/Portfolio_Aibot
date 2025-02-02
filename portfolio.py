@@ -177,7 +177,7 @@ st.write(" ")
 # Projects
 
 st.title("Projects")
-col1,col2,col3,col4=st.columns(4,gap="large")
+col1,col2,col3,col4=st.columns(4,gap="small")
 with col1:
     st.markdown("""
         <div class="project-container">
