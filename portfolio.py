@@ -120,7 +120,7 @@ with col1:
     st.write("My proficiency extends across a diverse spectrum of programming languages including C, C++, Python, and database languages like SQL and PostgreSQL. I am adept in using frameworks such as React, jQuery, Express.js, Bootstrap, and Flask, leveraging them to deploy impactful projects in web development and advanced applications in computer vision.")
 
 with col2:
-    st.image("images/About.png",width=1000)
+    st.image("images/About.png",use_column_width=True)
 st.markdown("""</div> """,unsafe_allow_html=True)
         
     # st.markdown(
