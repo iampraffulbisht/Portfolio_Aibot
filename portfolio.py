@@ -121,7 +121,7 @@ with col1:
 
 with col2:
     st.markdown(
-        '<img src="images/About.png" class="floating-image" width="auto"/>',
+        '<img src="images/About.png"  width="700"/>',
         unsafe_allow_html=True,
     )
 st.title("Prafful's AI bot")
