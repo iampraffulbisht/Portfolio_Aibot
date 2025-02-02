@@ -121,7 +121,7 @@ with col1:
 
 with col2:
         st.image("images/About.png",width=None)
-        st.markdown("""</div> """,unsafe_allow_html=True)
+        
     # st.markdown(
     #     '<img src="images/About.png"  width="700"/>',
     #     unsafe_allow_html=True,
