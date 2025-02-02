@@ -67,6 +67,26 @@ st.markdown("""<style>
             text-align: center;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     }
+     .floating-image {
+
+           
+            transition: 0.3s;
+            transition-property: transform;
+            animation: floatImage 4s ease-in-out infinite;
+            animation-delay: 1s,2s;
+        }
+
+        @keyframes floatImage{
+            0%{
+                transform: translateY(0);
+            }
+            50%{
+                transform: translateY(-24px);
+            }
+            100%{
+                transform: translateY(0);
+            }
+            }
     
 
     
