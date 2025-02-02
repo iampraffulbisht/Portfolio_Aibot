@@ -217,7 +217,7 @@ resume_file = "Prafful_s_Resume.pdf"
 
 # Open the PDF file
 resume_image = Image.open("Resume.png")
-st.image(resume_image, caption="Preview of My Resume", use_column_width=True)
+st.image(resume_image, caption="Preview of My Resume", widht=True)
 
 # Provide the download button for the PDF
 col1, col2, col3 = st.columns([1, 1, 1])
