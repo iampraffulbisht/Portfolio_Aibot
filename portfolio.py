@@ -239,15 +239,15 @@ col1,col2,col3 = st.columns(3)
 for i in range(1,photos_per_col+1):
     img_path = f"images/photo-{i}.jpeg"
     with col1:
-        st.image(img_path,use_column_width=True)
+        st.image(img_path,width=None)
 for i in range(photos_per_col+1,2*photos_per_col+1):
     img_path = f"images/photo-{i}.jpeg"
     with col2:
-        st.image(img_path,use_column_width=True)
+        st.image(img_path,width=None)
 for i in range(2*photos_per_col+1,num_photos+1):
     img_path = f"images/photo-{i}.jpeg"
     with col3:
-        st.image(img_path,use_column_width=True)
+        st.image(img_path,width=None)
 
 
 st.write("")
